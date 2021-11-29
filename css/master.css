@@ -1,0 +1,98 @@
+/*---------------------------------------------------------  Start Variables */
+:root {
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --Very-Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+  --Font-Size: 15px;
+}
+/*-----------------------------------------------------------  End Variables */
+/*------------------------------------------------------  Start Global Rules */
+-webkit-box-sizing: border-box;
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+  transition: 0.5s;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  /* 200 , 400 , 600 */
+  display: grid;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--Very-Light-Gray);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 425px) {
+  .container {
+    width: 320px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 765px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/*--------------------------------------------------------  End Global Rules */
+/*--------------------------------------------------------------  Start Code */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+}
+.header h2 {
+}
+.header h1 {
+}
+.header p {
+}
+.content {
+  display: flex;
+}
+.container .left {
+}
+.container .middle {
+}
+.container .middle .top {
+}
+.container .middle .bot {
+}
+.container .right {
+}
+.container .box {
+}
+.box h3 {
+}
+.box p {
+}
+.box img {
+}
+
+/*----------------------------------------------------------------  End Code */
